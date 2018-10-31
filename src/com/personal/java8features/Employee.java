@@ -1,4 +1,4 @@
-package com.peersonal.java8features;
+package com.personal.java8features;
 
 public class Employee 
 {
