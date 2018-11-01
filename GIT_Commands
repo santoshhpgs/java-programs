@@ -1,0 +1,41 @@
+GIT Commands
+------------
+
+git clone https://github.com/santoshhpgs/java-programs.git
+
+git status
+
+git add file_name
+
+git commit -m 'messege'
+
+git log
+
+git push
+
+git difftool HEAD
+
+git checkout -- file_name
+
+git checkout -- .
+
+git revert commit_id
+
+git revert -n commit_id --> git commit -m 'message'
+
+git reset --hard commit_id
+
+git branch branch_name
+
+git branch
+
+git checkout branch_name
+
+git checkout master --> git merge branch_name
+
+git checkout branch_name --> git push -->
+
+
+
+
+
