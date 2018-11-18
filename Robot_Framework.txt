@@ -1,5 +1,5 @@
-Robot FrameWork
----------------
+Robot FrameWork(session 1)
+--------------------------
 
 References:
 Python - https://www.python.org/downloads/
@@ -91,3 +91,114 @@ Helpful TIPS:
     
     RF GitHub page - 
     https://github.com/robotframework
+	
+	
+Today we will learn:(session 5)
+-------------------------------
+1. What are Keywords
+2. Types of Keywords
+3. How to create User Keywords
+4. How to reference User Keywords
+
+USEFUL TIPS
+
+2 Types:
+
+LIBRARY KEYWORDS : low level keywords
+USER KEYWORDS    : high level keywords
+
+custom keywords
+combination of library keywords/actions
+
+Step 1 : Open RIDE
+
+Step 2 : Right click on Project / Test Suite - New User Keyword
+
+Step 3 : Create a keyword for Login
+
+Step 4 : Refer the keyword in a TestCase
+
+Useful Tips
+User Keyword syntax is similar to TestCase syntax
+Search Keyword - F5
+Find Usage
+
+
+
+Today we will learn:(session 6)
+--------------------------
+1. What is Setup and TearDown
+2. How to use
+
+SETUP - keyword executed before running any lower level component/keyword
+TEARDOWN - keyword executed after running any lower level component/keyword
+
+Step 1 : Open RIDE
+
+Step 2 : Create TestSuite Setup and Teardown and run it
+
+Today we will learn:(sesssion 7)
+-------------------------------
+1. How to create TAGS
+2. How to use tags during Test Execution
+3. How to use tags in Reports
+4. How to create Dynamic Tags
+5. How to set TAGS from command line
+
+Sanity, Smoke, Regression, Critical
+
+Tags are used to classify/categorize test cases
+
+
+Useful TIP
+command line option :  --settag
+
+Step 1 : Goto cmd and cd to your robot framework project
+
+Step 2 : syntax
+             robot -t TestName --settag=TagName TestSuite.txt
+
+Today we will learn:(session 8)
+-------------------------------
+1. Different ways to install Robot Framework
+2. How to verify Installation
+3. How to upgrade to latest version
+4. How to download and install 
+5. How to uninstall 
+
+USEFUL TIPS
+______________________________________________________
+
+
+INSTALL
+
+1. Install latest version
+    pip install robotframework
+
+2. Install a specific version
+    pip install robotframework==2.9.0
+
+3. Do a fresh install ignoring cached files
+    pip install --no-cache-dir robotframework
+
+
+VERIFY INSTALLION
+    robot --version
+
+
+UPGRADE
+    pip install --upgrade robotframework
+
+
+DOWNLOAD AND INSTALL
+    pip download robotframework
+    pip install robotframework-3.0.tar.gz
+
+
+UNINSTALL
+pip uninstall robotframework
+
+
+USEFUL TIPS
+rebot --version
+rebot --help
