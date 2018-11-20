@@ -44,6 +44,21 @@ git checkout branch_name
 git checkout master --> git merge branch_name
 git checkout branch_name --> git push -->
 
+git 2.11 and newer
+
+git clean  -d  -f .
+
+older git
+
+git clean  -d  -f ""
+
+where -d can be replace with following:
+
+-x means ignored files are also removed as well as files unknown to git.
+
+-d means remove untracked directories in addition to untracked files.
+
+-f is required to force it to run.
 
 Linux code base in GIT HUB
 --------------------------
